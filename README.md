@@ -33,7 +33,7 @@ Users should be able to:
 ## Author
 
 - Website - [Rosalia Ley](https://github.com/RosaliaLey)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Email - [rosalia@rosalialey.com](rosalia@rosalialey.com)
+- Frontend Mentor - [@Rosalialey](https://www.frontendmentor.io/profile/RosaliaLey)
+- Email - rosalia@rosalialey.com
 
 
