@@ -39,7 +39,7 @@ main {
 
 .header-img {
     height: 240px;
-    background: url(/images/image-product-mobile.jpg);
+    background: url(images/image-product-mobile.jpg);
     background-size: cover;
     border-radius: 12px 12px 0 0;
 }
@@ -132,7 +132,7 @@ main {
     }
 
     .header-img{
-        background: url(/images/image-product-desktop.jpg);
+        background: url(images/image-product-desktop.jpg);
         border-radius: 8px 0 0 8px;
         background-size: cover;
         width: 55%;
