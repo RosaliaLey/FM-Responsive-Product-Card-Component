@@ -1,0 +1,145 @@
+/*font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;*/
+
+/*values are declared here - these are the colors for our card.*/
+:root {
+ --darkCyan: #3c8067;
+ --darkerCyan: #214538;
+ --cream: #f2ebe3;
+ --darkBlue: #1c232b;
+ --darkGray: #6c7289;
+ --white: #ffffff;
+}
+
+/*genetic styles for the card*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: var(--cream);
+    font-family: 'montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    width: 352 px;
+    background-color: var(--white);
+    border-radius: 12px;
+}
+
+.header-img {
+    height: 240px;
+    background: url(/images/image-product-mobile.jpg);
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.container {
+    padding: 0 24px;
+}
+
+.sub-header {
+    font-size: 12.8px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+    padding: 24px 0 12px 0;
+    color: var(--darkGray);
+}
+
+.main-header {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Fraunces', serif;
+    color: var(--darkBlue);
+}
+
+.content {
+    font-size: 14px;
+    padding: 16px 0;
+    color: var(--darkGray);
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.prices {
+    height: 48px;
+    padding: 12px 0;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.new-price {
+    font-size: 32px;
+    color: var(--darkCyan);
+    font-family: 'Fraunces', serif;
+}
+
+.old-price {
+    font-size: 14.4px;
+    margin: 0 0 12.8px 32px;
+    text-decoration: line-through;
+    color: var(--darkGray);
+}
+
+.btn {
+    font-size: 14.4px;
+    display: block;
+    width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    color: var(--white);
+    background-color: var(--darkCyan);
+    margin: 0 0 32px 0;
+    font-weight: 700
+}
+
+.btn:hover {
+    background-color: var(--darkerCyan);
+}
+
+.icon {
+    margin: 0 16px 0 0;
+}
+
+/*footer section*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: var(--darkCyan);
+    text-decoration: none;
+}
+
+/*responsive site*/
+@media  only screen and ( min-width: 800px){
+
+    .card{
+        width: 576px;
+        flex-direction: row;
+    }
+
+    .header-img{
+        background: url(/images/image-product-desktop.jpg);
+        border-radius: 8px 0 0 8px;
+        background-size: cover;
+        width: 55%;
+        height: 473px;
+    }
+    .container{
+        width: 45%;
+    }
+
+}
