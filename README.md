@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/product-card.png)
+![](images/html-css-responsive-product-card.png)
 
 ### Built with
 
@@ -33,7 +33,7 @@ Users should be able to:
 ## Author
 
 - Website - [Rosalia Ley](https://github.com/RosaliaLey)
-- Frontend Mentor - [@Rosalialey](https://www.frontendmentor.io/profile/RosaliaLey)
-- Email - rosalia@rosalialey.com
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Email - [rosalia@rosalialey.com](rosalia@rosalialey.com)
 
 
