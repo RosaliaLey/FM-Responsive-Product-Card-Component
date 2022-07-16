@@ -48,7 +48,7 @@ main {
     padding: 0 1.5em;
 }
 
-.sub-header {
+.sub-heading {
     font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: 400;
@@ -57,7 +57,7 @@ main {
     color: var(--darkGray);
 }
 
-.main-header {
+.heading {
     font-size: 2rem;
     font-weight: 600;
     font-family: 'Fraunces', serif;
