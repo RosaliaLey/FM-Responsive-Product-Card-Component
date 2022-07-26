@@ -1,6 +1,5 @@
-# Frontend Mentor - Product preview card component solution
+# Product preview card component
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). 
 
 ## Table of contents
 
@@ -33,7 +32,6 @@ Users should be able to:
 ## Author
 
 - Website - [Rosalia Ley](https://github.com/RosaliaLey)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Email - [rosalia@rosalialey.com](rosalia@rosalialey.com)
 
 
